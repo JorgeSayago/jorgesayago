@@ -38,11 +38,3 @@ body {
   animation: girar 10s linear infinite;
 }
 
-@keyframes girar {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
