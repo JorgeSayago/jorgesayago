@@ -1,14 +1,6 @@
 * {
   box-sizing: border-box;
 }
-
-body {
-  margin: 0;
-  font-family: system-ui, sans-serif;
-  color: black;
-  background-color: rgb(248, 247, 247);
-}
-
 nav {
   display: flex;
   flex-wrap: wrap;
@@ -31,12 +23,19 @@ nav a {
   color: #555;
 }
 body {
-  background-image: url('descarga.jpg');
+  background-image: url('imagen23.jpg');
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  background-position: center center;
-  animation: girar 10s linear infinite;
 }
+
+/* Estilos para el contenido del sitio */
+.contenido {
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
 
 table {
   border: 3px solid black;
