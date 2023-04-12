@@ -24,7 +24,7 @@ nav a {
 }
 body {
   background-image: url('imagen23.jpg');
-  background-size: cover;
+  background-size: 3;
   background-position: center;
 
   background-repeat: no-repeat;
@@ -38,7 +38,8 @@ body {
 }
 
 h1{
-  color: #cf0c0c;
+  color: #a5cf0c;
+
 }
 table {
   border: 3px solid black;
@@ -47,11 +48,16 @@ table {
   width: 100%;
   background-color: #f2f2f2;
   font-size: 16px;
-
 }
-:nth-child(even) {
-  background-color: rgb(116, 35, 192);
+th, td {
+  border: 3px solid #0a0a0a;
+  text-align: left;
+  padding: 8px;
 }
-:nth-child(odd) {
-  background-color: rgb(35, 100, 64);
-}
+  td:nth-child(2n) {
+    background-color: #4709d8; /* Color de fondo para filas pares */
+  }
+  
+  td:nth-child(2n+1) {
+    background-color: #cf7711; /* Color de fondo para filas impares */
+  }
